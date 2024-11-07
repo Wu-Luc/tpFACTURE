@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Facture.css">
+    <script src="Facture.js"></script>
+</head>
+<body>
+    <div class="facture-container">
+        <h1>Facture en Javascript</h1>
+        <div class="table">
+            <div class="row header">
+                <div class="cell">Article</div>
+                <div class="cell">Prix</div>
+                <div class="cell">Quantité</div>
+                <div class="cell">Résultat</div>
+            </div>
+
+            <div class="row">
+                <input class="cell" type="text" placeholder="Entrer un article" id="article1">
+                <input class="cell" type="number" placeholder="Entrer la valeur" id="prix1">
+                <input class="cell" type="number" placeholder="Entrer la quantité" id="quantite1">
+                <div class="cell result" id="resultat1">0</div>
+            </div>
+
+            <div class="row">
+                <input class="cell" type="text" placeholder="Entrer un article" id="article2">
+                <input class="cell" type="number" placeholder="Entrer la valeur" id="prix2">
+                <input class="cell" type="number" placeholder="Entrer la quantité" id="quantite2">
+                <div class="cell result" id="resultat2">0</div>
+            </div>
+
+            <div class="row">
+                <input class="cell" type="text" placeholder="Entrer un article" id="article3">
+                <input class="cell" type="number" placeholder="Entrer la valeur" id="prix3">
+                <input class="cell" type="number" placeholder="Entrer la quantité" id="quantite3">
+                <div class="cell result" id="resultat3">0</div>
+            </div>
+
+            <div class="row">
+                <input class="cell" type="text" placeholder="Entrer un article" id="article4">
+                <input class="cell" type="number" placeholder="Entrer la valeur" id="prix4">
+                <input class="cell" type="number" placeholder="Entrer la quantité" id="quantite4">
+                <div class="cell result" id="resultat4">0</div>
+            </div>
+
+            <div class="row">
+                <div class="cell result" id="resultat5">0</div>
+            </div>
+
+
+            <!-- Ajoutez plus de lignes en suivant ce même format -->
+        </div>
+        <button onclick="facture()">Résultat</button>
+        <button onclick="reinitialiser()">Réinitialiser</button>
+        <button onclick="somme()">somme</button>
+
+    </div>
+</body>
+</html>
+</html>
